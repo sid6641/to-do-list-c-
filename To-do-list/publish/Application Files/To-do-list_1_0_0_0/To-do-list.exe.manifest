@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="To-do-list.exe" version="1.0.0.0" publicKeyToken="e7ed1c2fedb1b5dc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="To-do-list" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="To-do-list.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="To-do-list.exe" size="881664">
+      <assemblyIdentity name="To-do-list" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LkrHx0yCYeqjX/nux6H+BZf3UCDH1nWBtlif4qi87xw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="To-do-list.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Anirudh\AnirudhAK" issuerKeyHash="67fd9f06ba459334747799d1707ddc89fddf77d7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NxEJc+fQGYmRLz96KD2caBLONBKFodVVEzBjJHZZZVo=</DigestValue></Reference></SignedInfo><SignatureValue>wJoNtO01X97XB6dLSXeUnhPB+Hpz5XtGhCeVqwi1Y4lT8AfUJOlz/QuRtTDco3iAol+1R/N3J6f88RKRgDd2Jmf6XO8jViKhlaU9ok72ERBSU/jux02p+MU5HToiQSevnKO8457dxW7T5IxoPzP2fojMqUuPfoBbZI+BdKzEh7U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>58R/6Tddut5j67Gjh1ytEs+1KwVKf+0bBPF7bZRKKfHuDo9N9YLXU2d1BuRyvPUZU8Zxp6n28mn6pyCi0+TwTYqF1ZeEK3TrxsclVUSpvAPbB7TRkw6EN9sopdSxZo811sx8qbER2tKwyc/h3/ECVpYNLwz2BPclXDXLabBcfLM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5a6559762463301355d5a1851234ce12689c3d287a3f2f918919d0e773091137" Description="" Url=""><as:assemblyIdentity name="To-do-list.exe" version="1.0.0.0" publicKeyToken="e7ed1c2fedb1b5dc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Anirudh\AnirudhAK</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6X8rfXp2Vb/1vFFPGiV0kDpmhBSWowChPfTHw/8gp5E=</DigestValue></Reference></SignedInfo><SignatureValue>mjUHFabXONTA/yLRnJmf0fgmvanAiPDhkaX1dSDaXS2uyMl4bV3Xoine94xwl9FmDvAxuml5JDJ+VrX0w7CexiXntzD3yKgHyP5gtj54E+3k3YbOXEZUfP3NPshq43ec9e5Sa8W+uScgWBbjdCpsMLsbOBRmwjGlvIy3SuTOSxQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>58R/6Tddut5j67Gjh1ytEs+1KwVKf+0bBPF7bZRKKfHuDo9N9YLXU2d1BuRyvPUZU8Zxp6n28mn6pyCi0+TwTYqF1ZeEK3TrxsclVUSpvAPbB7TRkw6EN9sopdSxZo811sx8qbER2tKwyc/h3/ECVpYNLwz2BPclXDXLabBcfLM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQFc/iMGwQ1aNKTyxPesMxjzANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQQBuAGkAcgB1AGQAaABcAEEAbgBpAHIAdQBkAGgAQQBLMB4XDTE1MDExNzE3NTcyM1oXDTE2MDExNzIzNTcyM1owLTErMCkGA1UEAx4iAEEAbgBpAHIAdQBkAGgAXABBAG4AaQByAHUAZABoAEEASzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA58R/6Tddut5j67Gjh1ytEs+1KwVKf+0bBPF7bZRKKfHuDo9N9YLXU2d1BuRyvPUZU8Zxp6n28mn6pyCi0+TwTYqF1ZeEK3TrxsclVUSpvAPbB7TRkw6EN9sopdSxZo811sx8qbER2tKwyc/h3/ECVpYNLwz2BPclXDXLabBcfLMCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAXyW1EQTjrL59bkh9c+20yEiGusOLJ8xITAOV+J18dvjO9stUqPX+MfQ0Qq/9AJLA0gswIY0G0Ouyf8rQThhjlvNfxIMdoZuPREpUKTlni/qvhXiLy/wDSHM9AxcM3Cm2XnX33QncV3ss3kJw/Ar7tM49xIhyp5ZqfJUi4MZAo8g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
